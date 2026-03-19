@@ -24,13 +24,13 @@ jobs:
       uses: returntocorp/semgrep-action@v1
 
     # 4. Dependency Scan (Trivy FS)
-    - name: Run Trivy FS Scan
-      uses: aquasecurity/trivy-action@0.20.0
-      with:
-       scan-type: fs
-       format: table
-       severity: HIGH,CRITICAL
-       exit-code: 1
+ - name: Run Trivy FS Scan
+  uses: aquasecurity/trivy-action@0.20.0
+  with:
+    scan-type: fs
+    format: table
+    severity: HIGH,CRITICAL
+    exit-code: 1
 
     # 5. Build Docker Image
     - name: Build Docker Image
