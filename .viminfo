@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1773930401,,"wq"
+|2,0,1773930739,,"wq"
 :q!
 |2,0,1773926670,,"q!"
 
@@ -182,36 +182,50 @@
 |<"          terraform show -json tfplan > tfplan.json","          checkov -f tfplan.json --framework terraform_plan","","      - name: Terraform Apply","        run: terraform apply -auto-approve tfplan"
 
 # File marks:
-'0  2  25  ~/app.js
-|4,48,2,25,1773930401,"~/app.js"
-'1  55  59  ~/.github/workflows/secure-pipeline.yml
-|4,49,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
-'2  2  19  ~/.gitignore
-|4,50,2,19,1773929769,"~/.gitignore"
-'3  9  20  ~/Dockerfile
-|4,51,9,20,1773929664,"~/Dockerfile"
-'4  1  32  ~/app.js
-|4,52,1,32,1773929625,"~/app.js"
-'5  1  32  ~/app.js
-|4,53,1,32,1773929625,"~/app.js"
-'6  2  18  ~/terraform-drift-demo/main.tf
-|4,54,2,18,1773927825,"~/terraform-drift-demo/main.tf"
-'7  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,55,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'8  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,56,40,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'9  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,57,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'0  4  39  ~/app.js
+|4,48,4,39,1773930739,"~/app.js"
+'1  2  25  ~/app.js
+|4,49,2,25,1773930401,"~/app.js"
+'2  2  25  ~/app.js
+|4,50,2,25,1773930401,"~/app.js"
+'3  55  59  ~/.github/workflows/secure-pipeline.yml
+|4,51,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+'4  2  19  ~/.gitignore
+|4,52,2,19,1773929769,"~/.gitignore"
+'5  9  20  ~/Dockerfile
+|4,53,9,20,1773929664,"~/Dockerfile"
+'6  1  32  ~/app.js
+|4,54,1,32,1773929625,"~/app.js"
+'7  1  32  ~/app.js
+|4,55,1,32,1773929625,"~/app.js"
+'8  1  32  ~/app.js
+|4,56,1,32,1773929625,"~/app.js"
+'9  1  32  ~/app.js
+|4,57,1,32,1773929625,"~/app.js"
 
 # Jumplist (newest first):
+-'  4  39  ~/app.js
+|4,39,4,39,1773930739,"~/app.js"
+-'  2  25  ~/app.js
+|4,39,2,25,1773930727,"~/app.js"
 -'  2  25  ~/app.js
 |4,39,2,25,1773930401,"~/app.js"
+-'  1  32  ~/app.js
+|4,39,1,32,1773930392,"~/app.js"
 -'  1  32  ~/app.js
 |4,39,1,32,1773930392,"~/app.js"
 -'  55  59  ~/.github/workflows/secure-pipeline.yml
 |4,39,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
 -'  55  59  ~/.github/workflows/secure-pipeline.yml
 |4,39,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+-'  55  59  ~/.github/workflows/secure-pipeline.yml
+|4,39,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+-'  55  59  ~/.github/workflows/secure-pipeline.yml
+|4,39,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+-'  1  0  ~/.github/workflows/secure-pipeline.yml
+|4,39,1,0,1773929885,"~/.github/workflows/secure-pipeline.yml"
+-'  1  0  ~/.github/workflows/secure-pipeline.yml
+|4,39,1,0,1773929885,"~/.github/workflows/secure-pipeline.yml"
 -'  1  0  ~/.github/workflows/secure-pipeline.yml
 |4,39,1,0,1773929885,"~/.github/workflows/secure-pipeline.yml"
 -'  1  0  ~/.github/workflows/secure-pipeline.yml
@@ -224,6 +238,22 @@
 |4,39,2,19,1773929769,"~/.gitignore"
 -'  2  19  ~/.gitignore
 |4,39,2,19,1773929769,"~/.gitignore"
+-'  2  19  ~/.gitignore
+|4,39,2,19,1773929769,"~/.gitignore"
+-'  2  19  ~/.gitignore
+|4,39,2,19,1773929769,"~/.gitignore"
+-'  2  19  ~/.gitignore
+|4,39,2,19,1773929769,"~/.gitignore"
+-'  2  19  ~/.gitignore
+|4,39,2,19,1773929769,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1773929754,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1773929754,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1773929754,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1773929754,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1773929754,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -248,6 +278,38 @@
 |4,39,9,20,1773929664,"~/Dockerfile"
 -'  9  20  ~/Dockerfile
 |4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1773929656,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
@@ -342,78 +404,17 @@
 |4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
 -'  2  18  ~/terraform-drift-demo/main.tf
 |4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
--'  2  18  ~/terraform-drift-demo/main.tf
-|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
--'  1  0  ~/terraform-drift-demo/main.tf
-|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
 
 # History of marks within files (newest to oldest):
 
 > ~/app.js
-	*	1773930397	0
-	"	2	25
-	^	2	26
-	.	2	26
+	*	1773930737	0
+	"	4	39
+	^	4	40
+	.	4	39
 	+	1	34
 	+	2	26
+	+	4	39
 
 > ~/.github/workflows/secure-pipeline.yml
 	*	1773929996	0
