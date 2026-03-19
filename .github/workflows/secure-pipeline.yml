@@ -1,0 +1,55 @@
+name: Secure CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  security-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # 1. Checkout
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # 2. Secrets Scan (Gitleaks)
+    - name: Run Gitleaks Scan
+      uses: gitleaks/gitleaks-action@v2
+
+    # 3. SAST (Semgrep)
+    - name: Run Semgrep
+      uses: returntocorp/semgrep-action@v1
+
+    # 4. Dependency Scan (Trivy FS)
+    - name: Run Trivy FS Scan
+      uses: aquasecurity/trivy-action@0.20.0
+      with:
+        scan-type: fs
+        format: table
+
+    # 5. Build Docker Image
+    - name: Build Docker Image
+      run: docker build -t secure-app .
+
+    # 6. Image Scan
+    - name: Scan Docker Image
+      uses: aquasecurity/trivy-action@0.20.0
+      with:
+        image-ref: secure-app
+        format: table
+
+    # 7. Login to DockerHub
+    - name: Login to DockerHub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    # 8. Push Image
+    - name: Push Image
+      run: |
+        docker tag secure-app ${{ secrets.DOCKER_USERNAME }}/secure-app
+        docker push ${{ secrets.DOCKER_USERNAME }}/secure-app

@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1773929769,,"wq"
+|2,0,1773929997,,"wq"
 :q!
 |2,0,1773926670,,"q!"
 
@@ -182,36 +182,52 @@
 |<"          terraform show -json tfplan > tfplan.json","          checkov -f tfplan.json --framework terraform_plan","","      - name: Terraform Apply","        run: terraform apply -auto-approve tfplan"
 
 # File marks:
-'0  2  19  ~/.gitignore
-|4,48,2,19,1773929769,"~/.gitignore"
-'1  9  20  ~/Dockerfile
-|4,49,9,20,1773929664,"~/Dockerfile"
-'2  1  32  ~/app.js
-|4,50,1,32,1773929625,"~/app.js"
-'3  2  18  ~/terraform-drift-demo/main.tf
-|4,51,2,18,1773927825,"~/terraform-drift-demo/main.tf"
-'4  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,52,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'5  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,53,40,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'6  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,54,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'7  1  19  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,55,1,19,1773927314,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'8  15  19  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,56,15,19,1773927314,"~/terraform-drift-demo/.github/workflows/terraform.yml"
-'9  1  19  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,57,1,19,1773927314,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'0  55  59  ~/.github/workflows/secure-pipeline.yml
+|4,48,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+'1  2  19  ~/.gitignore
+|4,49,2,19,1773929769,"~/.gitignore"
+'2  9  20  ~/Dockerfile
+|4,50,9,20,1773929664,"~/Dockerfile"
+'3  1  32  ~/app.js
+|4,51,1,32,1773929625,"~/app.js"
+'4  2  18  ~/terraform-drift-demo/main.tf
+|4,52,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+'5  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,53,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'6  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,54,40,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'7  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,55,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'8  1  19  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,56,1,19,1773927314,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+'9  15  19  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,57,15,19,1773927314,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 
 # Jumplist (newest first):
+-'  55  59  ~/.github/workflows/secure-pipeline.yml
+|4,39,55,59,1773929997,"~/.github/workflows/secure-pipeline.yml"
+-'  1  0  ~/.github/workflows/secure-pipeline.yml
+|4,39,1,0,1773929885,"~/.github/workflows/secure-pipeline.yml"
 -'  2  19  ~/.gitignore
 |4,39,2,19,1773929769,"~/.gitignore"
+-'  2  19  ~/.gitignore
+|4,39,2,19,1773929769,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1773929754,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1773929754,"~/.gitignore"
 -'  9  20  ~/Dockerfile
 |4,39,9,20,1773929664,"~/Dockerfile"
 -'  9  20  ~/Dockerfile
 |4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  9  20  ~/Dockerfile
+|4,39,9,20,1773929664,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1773929656,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1773929656,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
@@ -224,6 +240,14 @@
 |4,39,1,32,1773929625,"~/app.js"
 -'  1  32  ~/app.js
 |4,39,1,32,1773929625,"~/app.js"
+-'  1  32  ~/app.js
+|4,39,1,32,1773929625,"~/app.js"
+-'  1  32  ~/app.js
+|4,39,1,32,1773929625,"~/app.js"
+-'  1  32  ~/app.js
+|4,39,1,32,1773929625,"~/app.js"
+-'  1  32  ~/app.js
+|4,39,1,32,1773929625,"~/app.js"
 -'  2  18  ~/terraform-drift-demo/main.tf
 |4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
 -'  2  18  ~/terraform-drift-demo/main.tf
@@ -240,6 +264,38 @@
 |4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
 -'  2  18  ~/terraform-drift-demo/main.tf
 |4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  2  18  ~/terraform-drift-demo/main.tf
+|4,39,2,18,1773927825,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
+-'  1  0  ~/terraform-drift-demo/main.tf
+|4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
 -'  1  0  ~/terraform-drift-demo/main.tf
 |4,39,1,0,1773927816,"~/terraform-drift-demo/main.tf"
 -'  1  0  ~/terraform-drift-demo/main.tf
@@ -288,6 +344,38 @@
 |4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 -'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
 |4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
+-'  16  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
+|4,39,16,0,1773927694,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 -'  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
 |4,39,40,47,1773927678,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 -'  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
@@ -316,96 +404,15 @@
 |4,39,40,47,1773927678,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 -'  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
 |4,39,40,47,1773927678,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,40,47,1773927678,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  40  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,40,47,1773927678,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  44  47  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,44,47,1773927553,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
--'  1  0  ~/terraform-drift-demo/.github/workflows/terraform.yml
-|4,39,1,0,1773927547,"~/terraform-drift-demo/.github/workflows/terraform.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.github/workflows/secure-pipeline.yml
+	*	1773929996	0
+	"	55	59
+	^	55	60
+	.	55	60
+	+	55	60
 
 > ~/.gitignore
 	*	1773929768	0
