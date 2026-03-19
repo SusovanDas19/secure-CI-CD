@@ -1,0 +1,64 @@
+0 verbose cli /usr/bin/node-18 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/nodejs18/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install lodash@4.17.19
+7 verbose argv "install" "lodash@4.17.19"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-03-19T14_14_03_159Z-
+9 verbose logfile /root/.npm/_logs/2026-03-19T14_14_03_159Z-debug-0.log
+10 silly packumentCache heap:493355008 maxSize:123338752 maxEntrySize:61669376
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest lodash@4.17.19
+14 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/lodash 83ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/lodash set size:undefined disposed:false
+17 silly placeDep ROOT lodash@4.17.19 OK for: root@1.0.0 want: 4.17.19
+18 silly reify moves {}
+19 silly audit bulk request { lodash: [ '4.17.19' ] }
+20 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz. Extracting by manifest.
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 147ms
+22 silly audit report {
+22 silly audit report   lodash: [
+22 silly audit report     {
+22 silly audit report       id: 1106913,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-35jh-r3h4-6jhm',
+22 silly audit report       title: 'Command Injection in lodash',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<4.17.21',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1108258,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-29mw-wpgm-hmr9',
+22 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in lodash',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '>=4.0.0 <4.17.21',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1112455,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-xxjr-mmjv-4gpg',
+22 silly audit report       title: 'Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.22',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ]
+22 silly audit report }
+23 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/lodash 69ms (cache miss)
+25 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz 386ms (cache miss)
+27 silly ADD node_modules/lodash
+28 verbose cwd /root
+29 verbose os Linux 6.1.163-186.299.amzn2023.x86_64
+30 verbose node v18.20.8
+31 verbose npm  v10.8.2
+32 verbose exit 0
+33 info ok
